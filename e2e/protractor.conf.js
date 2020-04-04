@@ -14,8 +14,8 @@ exports.config = {
     browserName: 'chrome',
     chromeOptions: {
       args: ['--no-sandbox', '--disable-dev-shm-usage', '--ignore-certificate-errors'],
-      binary: require('puppeteer').executablePath()
-    }
+      binary: require('puppeteer').executablePath(),
+    },
   },
   directConnect: true,
   baseUrl: 'http://localhost:4200/',
@@ -23,12 +23,12 @@ exports.config = {
   jasmineNodeOpts: {
     showColors: true,
     defaultTimeoutInterval: 30000,
-    print: function() {}
+    print: function() {},
   },
   onPrepare() {
     require('ts-node').register({
-      project: require('path').join(__dirname, './tsconfig.json')
+      project: require('path').join(__dirname, './tsconfig.json'),
     });
     jasmine.getEnv().addReporter(new SpecReporter({ spec: { displayStacktrace: true } }));
-  }
+  },
 };
