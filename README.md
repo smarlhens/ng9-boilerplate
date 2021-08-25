@@ -1,3 +1,5 @@
+# ⚠️ Moved to [smarlhens/ngx-boilerplate/ng-09](https://github.com/smarlhens/ngx-boilerplate/tree/ng-09)
+
 # Angular 9 - Boilerplate
 
 [![GitHub CI](https://github.com/smarlhens/ng9-boilerplate/workflows/CI/badge.svg)](https://github.com/smarlhens/ng9-boilerplate/actions?query=workflow%3ACI)
@@ -14,7 +16,6 @@
 [![GitHub license](https://img.shields.io/github/license/smarlhens/ng9-boilerplate)](https://github.com/smarlhens/ng9-boilerplate)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/smarlhens/ng9-boilerplate)
 ![GitHub repo size](https://img.shields.io/github/repo-size/smarlhens/ng9-boilerplate)
-[![HitCount](http://hits.dwyl.io/smarlhens/ng9-boilerplate.svg)](http://hits.dwyl.io/smarlhens/ng9-boilerplate)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
